@@ -36,7 +36,7 @@ public class SerializadorCSVAnimal {
                 Animal animal = new Animal();
                 animal.setCod(partes[0]);
                 animal.setEspecie(partes[1]);
-                animal.setEspecie(partes[2]);
+                animal.setRaca(partes[2]);
                 animal.setIdade(Integer.parseInt(partes[3]));
                 animal.setPeso(Double.parseDouble(partes[4]));
                 
