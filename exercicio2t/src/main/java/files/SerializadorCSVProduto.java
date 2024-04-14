@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  *
- * @author jose
+ * @author igorxf
  */
 public class SerializadorCSVProduto {
     
