@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author joserui
+ * @author igorxf
  */
 public class FrProduto extends javax.swing.JFrame {
     public boolean editando;
