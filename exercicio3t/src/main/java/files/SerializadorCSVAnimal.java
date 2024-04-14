@@ -26,7 +26,7 @@ public class SerializadorCSVAnimal {
         return csv;
     }
     public List<Animal> fromCSV(String data) {
-        List<Animal> musicas = new ArrayList<>();
+        List<Animal> animais = new ArrayList<>();
         
         String[] linhas = data.split("\n");
         // Ignora o cabeçalho
@@ -41,9 +41,9 @@ public class SerializadorCSVAnimal {
                 animal.setPeso(Double.parseDouble(partes[4]));
                 
                 //apos montar um produto, adiciono na lista
-                musicas.add(animal);
+                animais.add(animal);
             }
         }
-        return musicas;
+        return animais;
     }
 }
